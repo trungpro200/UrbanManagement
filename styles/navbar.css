@@ -1,0 +1,59 @@
+nav {
+  background-color: var(--color-card);
+  position: fixed;
+  display: block;
+  width: 100%;
+  top: 0;
+}
+
+nav img {
+  width: 50px;
+  display: inline-block;
+  margin: 10px 30px;
+}
+
+nav a {
+  display: inline-block;
+  width: 100px;
+  color: var(--color-text);
+  text-decoration: none;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: larger;
+  position: relative;
+  text-align: center;
+}
+
+.navlinks {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+}
+
+nav a::after {
+  content: "";
+  border-bottom: 2px solid white;
+  position: absolute;
+  bottom: -2px;
+  transition-property: width, left;
+  width: 0%;
+  left: 50%;
+  transition: all 0.25s ease-in;
+}
+
+nav a:hover::after {
+  width: 70%;
+  left: 15%;
+  transition-property: width, left;
+  transition: all 0.5s ease-out;
+}
+
+nav::after {
+  content: "";
+  height: 100%;
+  display: block;
+}

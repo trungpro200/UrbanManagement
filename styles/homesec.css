@@ -1,0 +1,42 @@
+#home {
+  display: block;
+  background: radial-gradient(transparent, var(--color-background)),
+    url("/res/img/techbg.jpg");
+  background-size: cover;
+}
+
+#home > div {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#home h1 {
+  font-size: xx-large;
+}
+
+#home a {
+  text-decoration: none;
+  color: var(--color-text);
+  background-color: var(--color-accent-green);
+  border: 1px outset var(--color-card);
+  border-radius: 7px;
+  width: 120px;
+  height: 40px;
+  margin: 0 auto;
+  display: block;
+  line-height: 40px;
+  transition-property: transform, filter;
+  transition: all 0.25s;
+}
+
+#home a:hover {
+  box-shadow: -2px 2px var(--color-card);
+  transform: translate(2px, -2px);
+  filter: brightness(75%);
+
+  transition-property: transform, filter;
+  transition: all 0.25s;
+}
