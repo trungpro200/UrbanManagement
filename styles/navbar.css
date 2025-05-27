@@ -1,4 +1,5 @@
 nav {
+  z-index: 10000;
   background-color: var(--color-card);
   position: fixed;
   display: block;
@@ -36,7 +37,7 @@ nav a {
 
 nav a::after {
   content: "";
-  border-bottom: 2px solid white;
+  border-bottom: 4px solid white;
   position: absolute;
   bottom: -2px;
   transition-property: width, left;
