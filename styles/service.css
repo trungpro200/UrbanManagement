@@ -14,6 +14,10 @@
   width: 100%;
 }
 
+.service-card p {
+  text-align: center;
+}
+
 .service-list {
   display: flex;
   flex-direction: column;
@@ -28,7 +32,7 @@
 
 #service h3,
 p {
-  margin: 10px;
+  margin: 7px;
 }
 
 @media screen and (min-width: 700px) {
@@ -40,6 +44,17 @@ p {
   }
 
   .service-card {
-    width: 400px;
+    max-width: 400px;
+    transition-property: transform, filter;
+    transition: all 0.25s;
+  }
+
+  .service-card:hover {
+    box-shadow: -2px 2px var(--color-accent-green);
+    transform: translate(2px, -2px);
+    filter: brightness(85%);
+
+    transition-property: transform, filter;
+    transition: all 0.25s;
   }
 }

@@ -28,11 +28,16 @@ nav a {
 .navlinks {
   position: absolute;
   right: 0;
-  top: 0;
-  height: 100%;
-
+  width: 100%;
   display: flex;
+  visibility: hidden;
   align-items: center;
+  transition-property: opacity;
+  transition: all 0.5s ease;
+  flex-direction: column;
+  gap: 10px;
+
+  opacity: 0;
 }
 
 nav a::after {
@@ -57,4 +62,48 @@ nav::after {
   content: "";
   height: 100%;
   display: block;
+}
+
+.linktoggle {
+  position: absolute;
+  right: 0.5rem; /* small padding from the edge */
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: xx-large;
+  cursor: pointer;
+  padding: 0.5rem;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+#linktoggle {
+  display: none;
+}
+
+#linktoggle:checked ~ .navlinks {
+  /* left: 0;
+  top: 80px; */
+  opacity: 1;
+  background-color: var(--color-card);
+  top: 100%;
+  padding-bottom: 10px;
+
+  visibility: visible;
+}
+
+
+@media screen and (min-width: 700px) {
+  /* .linktoggle {
+    display: none;
+  } */
+
+  .navlinks {
+    display: flex;
+    visibility: visible;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
 }
