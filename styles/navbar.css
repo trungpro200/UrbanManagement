@@ -40,6 +40,10 @@ nav a {
   opacity: 0;
 }
 
+.navlinks a {
+  width: 175px;
+}
+
 nav a::after {
   content: "";
   border-bottom: 4px solid white;
@@ -93,7 +97,6 @@ nav::after {
 
   visibility: visible;
 }
-
 
 @media screen and (min-width: 700px) {
   /* .linktoggle {
