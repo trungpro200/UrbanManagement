@@ -1,0 +1,24 @@
+body > h1 {
+  font-size: x-large;
+  text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+  .fluid {
+    display: flex;
+    margin: 0 10vw;
+  }
+
+  .extra {
+    padding-top: 200px;
+  }
+
+  .extra h3 {
+    text-align: start;
+    text-indent: 20px;
+  }
+
+  .content {
+    display: flex;
+  }
+}

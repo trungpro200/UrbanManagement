@@ -1,0 +1,17 @@
+.extra h3 {
+  text-align: center;
+}
+
+.extra a {
+  color: gray;
+}
+
+@media screen and (min-width: 600px) {
+  .extra h3 {
+    text-align: left;
+  }
+}
+
+footer {
+  margin-left: -20px;
+}
