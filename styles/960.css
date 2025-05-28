@@ -1,39 +1,51 @@
 [class^="col-"] {
-    padding: 8px;
+  padding: 8px;
 }
 
 .col-1 {
-    width: 8.3333%;
+  width: 8.3333%;
 }
 
 .col-2 {
-    width: 16.66667%;
+  width: 16.66667%;
 }
 
 .col-4 {
-    width: 33.3333%;
+  width: 33.3333%;
 }
 
 .col-6 {
-    width: 50%;
+  width: 50%;
+}
+
+.col-8 {
+  width: 66.66667%;
 }
 
 .col-12 {
-    width: 100%;
+  width: 100%;
 }
 
+<<<<<<< HEAD
 @media (max-width: 500px) {
     .col-1 {
         width: 25%;
     }
+=======
+@media (max-width: 600px) {
+  .col-1 {
+    width: 25%;
+  }
+>>>>>>> 4dbf0ba872aa160c55fcacda08cb8a56eeaa667d
 
-    .col-2 {
-        width: 50%;
-    }
+  .col-2 {
+    width: 50%;
+  }
 
-    .col-4,
-    .col-6,
-    .col-12 {
-        width: 100%;
-    }
+  .col-4,
+  .col-6,
+  .col-8,
+  .col-12 {
+    width: 100%;
+  }
 }
