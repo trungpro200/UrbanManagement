@@ -1,44 +1,54 @@
 h2 {
-    text-align: center;
-    color: aqua;
+  text-align: center;
+  color: aqua;
 }
 
 h4 {
-    height: 30px;
+  height: 30px;
+  text-align: center;
 }
 
 p {
-    text-indent: 25px;
+  text-indent: 25px;
 }
 
 section {
-    border: 2px solid white;
+  border: 2px solid white;
 }
 
 .ingre {
-    display: grid;
-    text-align: center;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 10px;
-    padding: 0;
+  display: grid;
+  text-align: center;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  padding: 0;
 }
 
 .ingreitem {
-    border: 1px solid wheat;
-    border-radius: 5px;
-    margin-bottom: 5px; 
+  border: 1px solid wheat;
+  border-radius: 5px;
+  margin-bottom: 5px;
 }
 
 .benefit {
-    display: grid;
-    text-align: center;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 10px;
-    padding: 0;
+  display: grid;
+  text-align: center;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  padding: 0;
 }
 
 .benefititem {
-    border: 1px solid wheat;
-    border-radius: 5px;
-    margin-bottom: 5px;
+  border: 1px solid wheat;
+  border-radius: 5px;
+  margin-bottom: 5px;
 }
+
+article {
+  border: 2px solid white;
+}
+
+article img {
+  width: 100%;
+}
+
