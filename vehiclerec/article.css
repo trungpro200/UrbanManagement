@@ -1,0 +1,42 @@
+article p {
+  text-indent: 2em;
+}
+
+article h1 {
+  text-align: center;
+}
+
+body {
+  background-color: var(--color-background-1);
+  position: relative;
+  padding-left: 20px;
+  font-size: large;
+}
+
+nav {
+  margin-left: -20px;
+}
+
+article {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+article ul {
+  margin-left: 20px;
+}
+
+article a {
+  color: #0077cc;
+  text-decoration: underline;
+}
+
+article h2 {
+  border-bottom: var(--color-accent-green) solid 2px;
+}
+
+article img {
+  width: 100%;
+}
