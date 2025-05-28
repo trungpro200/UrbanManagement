@@ -41,6 +41,8 @@ p {
     flex-direction: row;
     gap: 20px;
     justify-items: center;
+    justify-content: center;
+    margin: auto;
   }
 
   .service-card {
