@@ -3,6 +3,10 @@ h2 {
     color: aqua;
 }
 
+h4 {
+    height: 30px;
+}
+
 p {
     text-indent: 25px;
 }
@@ -20,6 +24,20 @@ section {
 }
 
 .ingreitem {
+    border: 1px solid wheat;
+    border-radius: 5px;
+    margin-bottom: 5px; 
+}
+
+.benefit {
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    padding: 0;
+}
+
+.benefititem {
     border: 1px solid wheat;
     border-radius: 5px;
     margin-bottom: 5px;
