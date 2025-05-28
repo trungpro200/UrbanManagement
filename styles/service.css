@@ -35,7 +35,7 @@ p {
   margin: 7px;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 600px) {
   .service-list {
     display: flex;
     flex-direction: row;
