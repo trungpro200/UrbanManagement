@@ -1,0 +1,16 @@
+footer {
+  background-color: var(--color-accent-green);
+  margin-top: 100px;
+  padding: 10px;
+  text-align: center;
+}
+
+.contact {
+  border-bottom: 1px solid black;
+}
+
+@media screen and (min-width: 600px) {
+  footer {
+    text-align: left;
+  }
+}
