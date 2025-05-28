@@ -1,0 +1,15 @@
+p {
+  text-indent: 2em;
+}
+
+h1 {
+  text-align: center;
+}
+
+div {
+  display: grid;
+}
+
+body {
+  background-color: var(--color-background-1);
+}
