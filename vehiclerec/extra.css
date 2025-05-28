@@ -3,5 +3,9 @@
 }
 
 .extra a {
-    color: gray;
+  color: gray;
+}
+
+footer {
+  margin-left: -20px;
 }
