@@ -18,9 +18,8 @@ nav {
 }
 
 article {
-  max-width: 400px;
-  padding: 20px;
   font-family: Arial, sans-serif;
+  position: relative;
 }
 
 article ul {
