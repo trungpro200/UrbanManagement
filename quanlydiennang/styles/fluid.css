@@ -15,5 +15,6 @@ body > h1 {
 
   .content {
     display: flex;
+    margin: 0 10vw;
   }
 }
