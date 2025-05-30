@@ -4,11 +4,6 @@ body > h1 {
 }
 
 @media screen and (min-width: 600px) {
-  .fluid {
-    display: flex;
-    margin: 0 10vw;
-  }
-
   .extra {
     padding-top: 200px;
   }
